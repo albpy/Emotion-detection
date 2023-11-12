@@ -17,52 +17,53 @@ The dataset consists of a curated collection of images representing seven human 
 - **Batch Size:** 64
 
 During training, a total of 40,145 images were used from various internet sources and datasets. The model achieved a training accuracy of 64% and a testing accuracy of 60%.
-Folder structure 
+## Folder structure 
         project-root/
-        |-- em1.py
-        |-- detect_casc.py
-        |-- train/
-        |   |-- 0_Angry/
-        |   |-- 1_Disgusted/
-        |   |-- 2_Fearful/
-        |   |-- 3_Happy/
-        |   |-- 4_Neutral/
-        |   |-- 5_Sad/
-        |   |-- 6_Surprised/
-        |   |-- clean_f.py
-        |   |-- clean_f_tobw.py
-        |   |-- imghash.py
-        |   |-- png_jpeg.py
-        |   |-- reduce_no.py
-        |   |-- resize.py
-        |-- test/
-        |   |-- 0_Angry/
-        |   |-- 1_Disgusted/
-        |   |-- 2_Fearful/
-        |   |-- 3_Happy/
-        |   |-- 4_Neutral/
-        |   |-- 5_Sad/
-        |   |-- 6_Surprised/
-        |   |-- clean_f.py
-        |   |-- clean_f_tobw.py
-        |   |-- imghash.py
-        |   |-- png_jpeg.py
-        |   |-- reduce_no.py
-        |   |-- resize.py
-        |-- validation/
-        |   |-- 0_Angry/
-        |   |-- 1_Disgusted/
-        |   |-- 2_Fearful/
-        |   |-- 3_Happy/
-        |   |-- 4_Neutral/
-        |   |-- 5_Sad/
-        |   |-- 6_Surprised/
-        |   |-- clean_f.py
-        |   |-- clean_f_tobw.py
-        |   |-- imghash.py
-        |   |-- png_jpeg.py
-        |   |-- reduce_no.py
-        |   |-- resize.py
+|-- em1.py
+|-- detect_casc.py
+|-- train/
+|   |-- 0_Angry/
+|   |-- 1_Disgusted/
+|   |-- 2_Fearful/
+|   |-- 3_Happy/
+|   |-- 4_Neutral/
+|   |-- 5_Sad/
+|   |-- 6_Surprised/
+|   |-- clean_f.py
+|   |-- clean_f_tobw.py
+|   |-- imghash.py
+|   |-- png_jpeg.py
+|   |-- reduce_no.py
+|   |-- resize.py
+|-- test/
+|   |-- 0_Angry/
+|   |-- 1_Disgusted/
+|   |-- 2_Fearful/
+|   |-- 3_Happy/
+|   |-- 4_Neutral/
+|   |-- 5_Sad/
+|   |-- 6_Surprised/
+|   |-- clean_f.py
+|   |-- clean_f_tobw.py
+|   |-- imghash.py
+|   |-- png_jpeg.py
+|   |-- reduce_no.py
+|   |-- resize.py
+|-- validation/
+|   |-- 0_Angry/
+|   |-- 1_Disgusted/
+|   |-- 2_Fearful/
+|   |-- 3_Happy/
+|   |-- 4_Neutral/
+|   |-- 5_Sad/
+|   |-- 6_Surprised/
+|   |-- clean_f.py
+|   |-- clean_f_tobw.py
+|   |-- imghash.py
+|   |-- png_jpeg.py
+|   |-- reduce_no.py
+|   |-- resize.py
+
 
 ## Usage
 
