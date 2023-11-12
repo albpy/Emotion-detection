@@ -64,7 +64,7 @@ project-root/
     ├── png_jpeg.py
     ├── reduce_no.py
     └── resize.py
-    ```
+ ```
 
 
 ## Usage
