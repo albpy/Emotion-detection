@@ -17,6 +17,52 @@ The dataset consists of a curated collection of images representing seven human 
 - **Batch Size:** 64
 
 During training, a total of 40,145 images were used from various internet sources and datasets. The model achieved a training accuracy of 64% and a testing accuracy of 60%.
+Folder structure 
+        project-root/
+        |-- em1.py
+        |-- detect_casc.py
+        |-- train/
+        |   |-- 0_Angry/
+        |   |-- 1_Disgusted/
+        |   |-- 2_Fearful/
+        |   |-- 3_Happy/
+        |   |-- 4_Neutral/
+        |   |-- 5_Sad/
+        |   |-- 6_Surprised/
+        |   |-- clean_f.py
+        |   |-- clean_f_tobw.py
+        |   |-- imghash.py
+        |   |-- png_jpeg.py
+        |   |-- reduce_no.py
+        |   |-- resize.py
+        |-- test/
+        |   |-- 0_Angry/
+        |   |-- 1_Disgusted/
+        |   |-- 2_Fearful/
+        |   |-- 3_Happy/
+        |   |-- 4_Neutral/
+        |   |-- 5_Sad/
+        |   |-- 6_Surprised/
+        |   |-- clean_f.py
+        |   |-- clean_f_tobw.py
+        |   |-- imghash.py
+        |   |-- png_jpeg.py
+        |   |-- reduce_no.py
+        |   |-- resize.py
+        |-- validation/
+        |   |-- 0_Angry/
+        |   |-- 1_Disgusted/
+        |   |-- 2_Fearful/
+        |   |-- 3_Happy/
+        |   |-- 4_Neutral/
+        |   |-- 5_Sad/
+        |   |-- 6_Surprised/
+        |   |-- clean_f.py
+        |   |-- clean_f_tobw.py
+        |   |-- imghash.py
+        |   |-- png_jpeg.py
+        |   |-- reduce_no.py
+        |   |-- resize.py
 
 ## Usage
 
@@ -28,15 +74,46 @@ To use the emotion recognition model, follow these steps:
     git clone https://github.com/albpy/Emotion-detection
     ```
 Scripts
-1. 
 
-1. To train your data
+Note : files 1 to 7 should placed inside train, test and validation folder and last two is in the main folder
+
+1. To detect faces and remove other images using mediapipe, draw bboxes(not necessary)
+    
+    ```bash
+    python clean_f.py
+    ```
+2. convert to B&W images and find images with faces using mediapipe, draw bboxes(not necessary)
+   
+    ```bash
+    python clean_f_tobw.py
+    ```
+3. To remove duplicate images
+
+   ```bash
+    python imghash.py
+    ```
+5. convert to jpeg format
+
+    ```bash
+    python png_jpeg.py
+    ```
+6. To balance training image in each emotion folder --> choose wisely
+
+   ```bash
+    python reduce_no.py
+    ```
+7. Bulkily resize images to specific size
+
+   ```bash
+    python resize.py
+    ```
+8. To train your data
    
     ```bash
     python em1.py
     ```
     
-2. Run and display the emotion recognition script:
+9. Run and display the emotion recognition script:
 
     ```bash
     python detect_casc.py
@@ -49,7 +126,7 @@ Scripts
 
 ## Contributors
 
-- [Your Name](https://github.com/albpy/Emotion-detection)
+- [Albpy](https://github.com/albpy/Emotion-detection)
 
 ## License
 
