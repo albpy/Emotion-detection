@@ -18,7 +18,8 @@ The dataset consists of a curated collection of images representing seven human 
 
 During training, a total of 40,145 images were used from various internet sources and datasets. The model achieved a training accuracy of 64% and a testing accuracy of 60%.
 ## Folder structure 
-        project-root/
+
+project-root/
 |-- em1.py
 |-- detect_casc.py
 |-- train/
@@ -63,6 +64,7 @@ During training, a total of 40,145 images were used from various internet source
 |   |-- png_jpeg.py
 |   |-- reduce_no.py
 |   |-- resize.py
+
 
 
 ## Usage
