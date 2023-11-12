@@ -17,6 +17,11 @@ The dataset consists of a curated collection of images representing seven human 
 - **Batch Size:** 64
 
 During training, a total of 40,145 images were used from various internet sources and datasets. The model achieved a training accuracy of 64% and a testing accuracy of 60%.
+
+## Loss comparisson
+
+![Image Alt Text](https://github.com/albpy/Emotion-detection/blob/main/valid_loss%20vs%20tr_loss.png)
+
 ## Folder structure 
  ```bash
 project-root/
