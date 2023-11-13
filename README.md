@@ -22,6 +22,7 @@ During training, a total of 40,145 images were used from various internet source
 
 ![Image Alt Text](https://github.com/albpy/Emotion-detection/blob/main/valid_loss%20vs%20tr_loss.png)
 
+![image Alt Text](https://github.com/albpy/Emotion-detection/blob/main/Screenshot_2023-11-13-15-49-58-68_254de13a4bc8758c9908fff1f73e3725.jpg)
 ## Folder structure 
  ```bash
 project-root/
