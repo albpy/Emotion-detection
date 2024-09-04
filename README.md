@@ -136,15 +136,3 @@ Note : files 1 to 7 should placed inside train, test and validation folder and l
 ### sample out
 <img src="results_png/Detected_sample.jpg" alt="Detected Sample" width="300"/>
 
-
-## Contributors
-
-- [Albpy](https://github.com/albpy/Emotion-detection)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to the creators of TensorFlow and OpenCV for their powerful tools and resources.
