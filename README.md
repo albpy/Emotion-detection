@@ -20,7 +20,8 @@ During training, a total of 40,145 images were used from various internet source
 
 ## Loss comparisson
 
-![Image Alt Text](results_png/valid_loss_vs_tr_loss.png)
+<img src="results_png/valid_loss_vs_tr_loss.png" alt="Validation Loss vs Training Loss" width="400"/>
+
 ## Folder structure 
  ```bash
 project-root/
