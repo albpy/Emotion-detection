@@ -129,7 +129,7 @@ Note : files 1 to 7 should placed inside train, test and validation folder and l
 - **Testing Accuracy:** 60%
 
 ### Train and vlidation comparison
-![img](results_png/accuracy_after_55%.png)
+![img](results_png/accuracy_after_55_percent.png)
 
 ### sample out
 <img src="results_png/Detected_sample.jpg" alt="Detected Sample" width="300"/>
