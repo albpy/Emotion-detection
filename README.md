@@ -20,7 +20,7 @@ During training, a total of 40,145 images were used from various internet source
 
 ## Loss comparisson
 
-![Image Alt Text](https://github.com/albpy/Emotion-detection/blob/main/valid_loss%20vs%20tr_loss.png)
+![Image Alt Text](results_png/valid_loss_vs_tr_loss.png)
 ## Folder structure 
  ```bash
 project-root/
@@ -75,11 +75,8 @@ project-root/
 
 To use the emotion recognition model, follow these steps:
 
-1. Clone the repository:
+1. Download
 
-    ```bash
-    git clone https://github.com/albpy/Emotion-detection
-    ```
 Scripts
 
 Note : files 1 to 7 should placed inside train, test and validation folder and last two is in the main folder
@@ -130,6 +127,12 @@ Note : files 1 to 7 should placed inside train, test and validation folder and l
 
 - **Training Accuracy:** 64%
 - **Testing Accuracy:** 60%
+
+### Train and vlidation comparison
+![img](results_png/accuracy_after_55%.png)
+
+### sample out
+![img](results_png/Detected_sample.jpg)
 
 ## Contributors
 
