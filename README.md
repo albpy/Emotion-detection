@@ -132,7 +132,8 @@ Note : files 1 to 7 should placed inside train, test and validation folder and l
 ![img](results_png/accuracy_after_55%.png)
 
 ### sample out
-![img](results_png/Detected_sample.jpg)
+<img src="results_png/Detected_sample.jpg" alt="Detected Sample" width="400"/>
+
 
 ## Contributors
 
